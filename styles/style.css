@@ -1,5 +1,194 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-inline-size: 675px;
+  max-inline-size: 1024px;
+  font-family: var(--main-font-family, monospace);
+}
+
+/*
+@media (width >= 768px) .content-section:not(:last-of-type) {
+  margin-block-end: calc(4 * var(--main-gap));
+}
+*/
+
+.content-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+}
+
+.header__rec {
+  font-size: var(--main-text-size);
+  color: var(--accent-color);
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.content__link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+/*
+@supports (block-size:
+ 100dvb);
+ .header {
+  block-size: 100dvb;
+}
+*/
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--main-gap);
+  margin-block-start: 8.5%;
+  margin-inline-start: -4%;
+}
+
+.header__theme-menu-button {
+  position: relative;
+  display: block;
+  border: 1px solid transparent;
+  padding: 2px 13px 4px;
+  color: var(--nav-color);
+  line-height: 1;
+  text-transform: lowercase;
+  background-color: transparent;
+  font-size: var(--main-text-size);
+  font-family: var(--main-font-family);
+  gap: var(--main-gap);
+  cursor: pointer;
+  appearance: none;
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible::after {
+  content: '';
+  position: absolute;
+  inline-size: 100%;
+  block-size: 1px;
+  background-color: var(--nav-color);
+  inset-block-end: -2px;
+  inset-inline-start: 0;
+}
+
+.header__theme-menu-button:hover {
+  --nav-hover-color: rgb(255 0 112 / 0.4);
+  border: 1px solid var(--nav-hover-color);
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--nav-color);
+  pointer-events: none;
+}
+
+.header__logo {
+  justify-content: start;
+  margin-block-start: 31.2%;
+  margin-inline-start: -1.2%;
+  color: var(--header--logo-color);
+  font-size: var(--main-font-size);
+  line-height: 0.825;
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-family: var(--main-font-family);
+  position: absolute;
+}
+
+.header__paragraph {
+  color: #000028;
+  font-family: var(--main-font-family);
+  font-size: var(--main-text-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px;
+  width: 51%;
+  height: 11%;
+  background-color: var(--accent-color);
+  position: absolute;
+  margin-block-start: 23.73%;
+  margin-inline-start: 49%;
+}
+
+.content-section__title {
+  margin-block-end: calc(2 * var(--main-gap));
+  color: var(--section-heading-color);
+  font-size: var(--main-text-size);
+  line-height: var(--main-line-height);
+  width: 200%;
+  margin-block-start: 93.5%;
+}
+
+.content-section__title-layote {
+  margin-block-end: calc(2 * var(--main-gap));
+  color: var(--section-heading-color);
+  font-size: var(--main-text-size);
+  line-height: var(--main-line-height);
+}
+
+.text-block__heading {
+  font-size: var(--main-text-size);
+  line-height: var(--main-line-height);
+  font-family: var(--main-font-family);
+  background-color: var(--accent-color);
+  margin-block-start: 23.2%;
+  margin-inline-start: 25%;
+  width: 96.7%;
+}
+
+.text-block__heading-layot {
+  font-size: var(--main-text-size);
+  line-height: var(--main-line-height);
+  font-family: var(--main-font-family);
+  background-color: var(--accent-color);
+}
+
+.text-block__paragraph {
+  width: 670.918px;
+  margin-block-start: 1.5%;
+  margin-inline-start: 24.5%;
+  color: var(--main-text-color);
+
+}
+
+@media (width >=1024px) {
+  .header {
+    min-block-size: 640px;
+  }
+
+  .header__theme-menu {
+    justify-self: center;
+    align-self: start;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: row;
+  }
+}
+
+.content {
+  padding: calc(4 * var(--main-gap)) var(--main-gap);
+  font-size: var(--main-text-size);
+  line-height: var(--main-line-height);
+}
+
+.footer__logo {
+  color: var(--footer-logo-color);
+  font-size: var(--footer-logo-size);
+  line-height: 0.825;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
