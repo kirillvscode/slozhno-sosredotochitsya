@@ -26,18 +26,54 @@
   font-size: var(--main-text-size);
   color: var(--marker-color);
   text-transform: uppercase;
-  margin-inline-start: 80.8%;
-  margin-block-start: 2.1%;
+  margin-inline-start: 90.89%;
+  margin-block-start: 1.7%;
   position: absolute;
 }
 
-.colored-text {
-  color: var(--marker-color);
-  font-size: 28px;
-  text-shadow: 0px 0px 9px var(--marker-color);
-  margin-inline-start: 30%;
+.header__rec::after {
+  content: '⬤';
+  filter: drop-shadow(0px 0px 5px var(--marker-color));
+  margin-inline-start: 16%;
+}
+
+.page-decor {
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid var(--marker-border-color);
+  border-right: 1px solid var(--marker-border-color);
   position: absolute;
-  margin-block-start: -28.9%;
+  margin-block-start: 2%;
+  margin-inline-start: 94.4%;
+}
+
+
+.page-decor-header {
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid var(--marker-border-color);
+  border-left: 1px solid var(--marker-border-color);
+  position: absolute;
+  margin-block-start: -4.85%;
+  margin-inline-start: 0.5%;
+}
+
+.page-decor-focus {
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid var(--marker-border-color);
+  border-right: 1px solid var(--marker-border-color);
+  margin-inline-start: 94.4%;
+  margin-block-start: 4.7%;
+}
+
+.page-decor-footer {
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid var(--marker-border-color);
+  border-left: 1px solid var(--marker-border-color);
+  margin-block-start: -39.25%;
+  margin-inline-start: 0.7%;
 }
 
 .content__link {
@@ -65,8 +101,8 @@
   gap: var(--main-gap);
   cursor: pointer;
   appearance: none;
-  margin-inline-start: 530%;
-  margin-block-start: 26%;
+  margin-inline-start: 550.5%;
+  margin-block-start: 27.9%;
 }
 
 .header__theme-menu-button:focus {
@@ -105,6 +141,11 @@
   position: absolute;
 }
 
+.text-block {
+  margin-block-start: -24.4%;
+  margin-inline-start: 0.5%;
+}
+
 .header__paragraph {
   color: #000028;
   font-family: var(--main-font-family);
@@ -112,8 +153,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: 23.4px;
-  width: 51%;
-  height: 11%;
+  width: 47.8%;
+  height: 8.59%;
   background-color: var(--accent-color);
   position: absolute;
   margin-block-start: 50.6%;
@@ -126,7 +167,7 @@
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
   width: 170%;
-  margin-block-start: 92.50%;
+  margin-block-start: -4.5%;
   margin-inline-start: -0.5%;
 }
 
@@ -135,10 +176,10 @@
   color: var(--section-heading-color);
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
-  width: 205%;
+  width: 155%;
   position: relative;
-  margin-block-start: 441%;
-  margin-inline-start: -499%;
+  margin-block-start: 324%;
+  margin-inline-start: -464%;
 }
 
 .content-section__title-heading {
@@ -146,9 +187,9 @@
   color: var(--section-heading-color);
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
-  margin-block-start: 76.8%;
+  margin-block-start: 79%;
   width: 50%;
-  margin-inline-start: -24.9%;
+  margin-inline-start: -27.3%;
 }
 
 .text-block__heading {
@@ -157,8 +198,8 @@
   font-family: var(--main-font-family);
   background-color: var(--accent-color);
   margin-block-start: 23.2%;
-  margin-inline-start: 24.5%;
-  width: 96.7%;
+  margin-inline-start: 23.5%;
+  width: 100.4%;
 }
 
 .text-block__heading-layoate {
@@ -168,9 +209,9 @@
   background-color: var(--accent-color);
   display: flex;
   justify-content: start;
-  width: 187.5%;
+  width: 176.5%;
   margin-inline-start: -0.5%;
-  margin-block-start: 2.5%;
+  margin-block-start: 2.0%;
 }
 
 .text-block__heading-layoate-decor {
@@ -180,9 +221,9 @@
   background-color: var(--accent-color);
   display: flex;
   justify-content: start;
-  width: 187.5%;
-  margin-inline-start: 198.5%;
-  margin-block-start: -235.9%;
+  width: 176.5%;
+  margin-inline-start: 186.89%;
+  margin-block-start: -223.1%;
 }
 
 .text-block__heading-layoate-content {
@@ -192,9 +233,9 @@
   background-color: var(--accent-color);
   display: flex;
   justify-content: start;
-  width: 186.5%;
-  margin-inline-start: 397%;
-  margin-block-start: -224%;
+  width: 175.9%;
+  margin-inline-start: 373.5%;
+  margin-block-start: -210%;
 }
 
 .text-block__subheading-content {
@@ -202,9 +243,9 @@
   line-height: var(--main-line-height);
   font-family: var(--main-font-family);
   background-color: var(--accent-color);
-  margin-block-start: 306%;
-  width: 385%;
-  margin-inline-start: -299.5%;
+  margin-block-start: 287.6%;
+  width: 362%;
+  margin-inline-start: -275.5%;
 }
 
 .text-block__heading-content {
@@ -214,7 +255,7 @@
   background-color: var(--accent-color);
   position: absolute;
   margin-block-start: 1.2%;
-  margin-inline-start: -29.99%;
+  margin-inline-start: -29.3%;
   width: 38.55%;
   font-weight: 400;
 }
@@ -224,16 +265,16 @@
   line-height: var(--main-line-height);
   font-family: var(--main-font-family);
   background-color: var(--accent-color);
-  margin-block-start: 168.5%;
-  width: 385%;
-  margin-inline-start: -299.5%;
+  margin-block-start: 158.5%;
+  width: 362.5%;
+  margin-inline-start: -276%;
   font-weight: inherit;
 }
 
 .text-block__paragraph {
-  width: 670.918px;
+  width: 650px;
   margin-block-start: 1.5%;
-  margin-inline-start: 24.5%;
+  margin-inline-start: 23.5%;
   color: var(--main-text-color);
   margin-block-end: -20.2%;
 }
@@ -241,7 +282,7 @@
 .text-block__paragraph-layoate {
   color: var(--main-text-color);
   font-family: var(--main-font-family);
-  width: 185%;
+  width: 175%;
   margin-block-start: 6%;
   margin-block-end: 8%;
 }
@@ -252,16 +293,16 @@
   width: 38%;
   position: absolute;
   margin-block-start: 3.1%;
-  margin-inline-start: -29.8%;
+  margin-inline-start: -29.35%;
 }
 
 .title-layoate {
-  margin-inline-start: 199%;
+  margin-inline-start: 186.79%;
 }
 
 .title-layoate-decor {
-  margin-inline-start: 398%;
-  margin-block-start: 8%;
+  margin-inline-start: 374%;
+  margin-block-start: 6.5%;
 }
 
 .subparagraph {
@@ -376,6 +417,6 @@
   font-size: var(--main-font-size);
   line-height: 0.825;
   text-shadow: 2px 2px 0 var(--nav-color);
-  margin-block-start: 34.1%;
+  margin-block-start: 26.9%;
   margin-inline-start: 25.89%;
 }
