@@ -23,6 +23,7 @@
 
 .header__rec {
   font-size: var(--main-text-size);
+  font-family: var(--main-font-family);
   color: var(--marker-color);
   text-transform: uppercase;
   margin-inline-start: 79.1%;
@@ -87,10 +88,11 @@
   display: flex;
   flex-direction: column;
   gap: var(--main-gap);
-
 }
 
 .header__theme-menu-button {
+  display: flex;
+  flex-direction: column;
   position: relative;
   border: 1px solid transparent;
   padding: 2px 13px 4px;
@@ -143,6 +145,21 @@
   position: absolute;
 }
 
+.header__paragraph {
+  color: #000028;
+  font-family: var(--main-font-family);
+  font-size: var(--main-text-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px;
+  width: 34.08%;
+  min-height: 8.79%;
+  background-color: var(--accent-color);
+  position: absolute;
+  margin-inline-start: 49.25%;
+  margin-block-start: 35.9%;
+}
+
 .text-block {
   margin-inline-start: 12.5%;
   position: absolute;
@@ -174,21 +191,6 @@
 
 .text-block-content-layoate {
   margin-inline-start: 12.5%;
-}
-
-.header__paragraph {
-  color: #000028;
-  font-family: var(--main-font-family);
-  font-size: var(--main-text-size);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 23.4px;
-  width: 34.08%;
-  min-height: 8.79%;
-  background-color: var(--accent-color);
-  position: absolute;
-  margin-inline-start: 49.25%;
-  margin-block-start: 35.9%;
 }
 
 .content-section__title {
@@ -459,4 +461,463 @@
   margin-block-start: 26.5%;
   margin-inline-start: -1.58%;
   text-align: center;
+}
+
+@media (width <=768px) {
+  .grid-heading {
+    margin-block-start: 634%;
+    margin-inline-start: 10.4%;
+    width: 341%;
+  }
+
+  .grid-image {
+    width: 479px;
+    height: 192px;
+    margin-block-start: 188%;
+    margin-inline-start: 15.5%;
+  }
+
+  .grid-image-books {
+    width: 230px;
+    height: 230px;
+    margin-block-start: 664.15%;
+    margin-inline-start: 50.4%;
+  }
+
+  .grid-image-casets {
+    width: 229px;
+    height: 568px;
+    margin-block-start: 664.4%;
+    margin-inline-start: 47.5%;
+  }
+
+  .grid-image-ice {
+    width: 229px;
+    height: 441px;
+    margin-block-start: 188%;
+    margin-inline-start: 82.7%;
+  }
+
+  .grid-image-street {
+    width: 479px;
+    height: 318px;
+    margin-block-start: 250.25%;
+    margin-inline-start: 49.1%;
+  }
+
+  .footer__logo {
+    margin-block-start: 66.15%;
+    font-size: 120px;
+    margin-inline-start: 31.2%;
+  }
+
+  .decorated-zone-footer::after {
+    margin-inline-start: 111.25%;
+    margin-block-start: -73.1%;
+  }
+
+  .decorated-zone-footer::before {
+    margin-inline-start: 16.65%;
+    margin-block-start: 69.4%;
+  }
+}
+
+@media (width <=768px) {
+  .header__logo {
+    font-size: 120px;
+    margin-block-start: 23.36%;
+    margin-inline-start: 13.8%;
+  }
+
+  .header__theme-menu-button {
+    margin-inline-start: 1107.9%;
+    margin-block-start: 270.9%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__theme-menu-button_active {
+    margin-block-start: 375%;
+    margin-inline-start: 885%;
+  }
+
+  .header__theme-menu-button_type_active {
+    margin-block-start: 321.7%;
+    margin-inline-start: 997%;
+  }
+
+  .header__rec {
+    margin-inline-start: 106.3%;
+    margin-block-start: 2.4%;
+  }
+
+  .decorated-zone::after {
+    margin: -36.4% 0 0 111.1%;
+  }
+
+  .decorated-zone::before {
+    margin: 131.65% 0px 0px 16.5%;
+  }
+
+  .header__paragraph {
+    width: 48.9%;
+    margin-inline-start: 65.55%;
+    margin-block-start: 58.4%;
+  }
+
+  .content-section__title {
+    width: 60%;
+    margin-block-start: 69.5%;
+    margin-inline-start: 6.5%;
+  }
+
+  .text-block__heading {
+    margin-block-start: 38%;
+    margin-inline-start: 43.30%;
+    width: 73.5%;
+  }
+
+  .text-block__heading-next {
+    margin-block-start: 90.1%;
+    margin-inline-start: 43.6%;
+    width: 73.3%;
+  }
+
+  .text-block__paragraph {
+    margin-block-start: 1.6%;
+    margin-inline-start: 43.4%;
+    width: 72%;
+  }
+
+  .text-block__paragraph-layoate {
+    margin-block-start: 596.8%;
+    width: 540%;
+    margin-inline-start: 16.5%;
+  }
+
+  .paragraph-next {
+    margin-block-start: 1.5%;
+  }
+
+  .content-section__title-layoate {
+    margin-block-start: 268%;
+    margin-inline-start: 6.2%;
+    width: 60%;
+  }
+
+  .text-block__heading-layoate {
+    margin-block-start: 664%;
+    margin-inline-start: 13.5%;
+    width: 454.85%;
+  }
+
+  .text-block__heading-layoate-decor {
+    margin-block-start: 781.2%;
+    margin-inline-start: -101%;
+    width: 453%;
+  }
+
+  .title-layoate {
+    margin-block-start: -216%;
+    margin-inline-start: -164.5%;
+  }
+
+  .title-layoate-decor {
+    margin-block-start: 4%;
+    margin-inline-start: -152.5%;
+    width: 299%;
+  }
+
+  .text-block__heading-layoate-content {
+    margin-block-start: 598.7%;
+    margin-inline-start: -152.5%;
+    width: 300.5%;
+  }
+
+  .content-section__title-heading {
+    margin-block-start: 10.8%;
+    margin-inline-start: 11.5%;
+    width: 34%;
+  }
+
+  .text-block__subheading-content {
+    margin-block-start: 38.1%;
+    margin-inline-start: 46.5%;
+    width: 222.6%;
+  }
+
+  .text-block__heading-content {
+    margin-block-start: 16.6%;
+    margin-inline-start: -19.4%;
+    width: 63.6%;
+  }
+
+  .text-block__paragraph-content {
+    margin-block-start: 24.5%;
+    margin-inline-start: 43.5%;
+    width: 73%;
+  }
+
+  .subtitle {
+    margin-block-start: 47.65%;
+    margin-inline-start: 49.9%;
+  }
+
+  .subparagraph {
+    margin-block-start: 76.5%;
+  }
+
+  .subtitle-layoate {
+    margin-block-start: 77%;
+    margin-inline-start: 17.3%;
+  }
+
+  .subparagraph-content {
+    margin-block-start: 110.5%;
+  }
+
+  .subtitle-content {
+    margin-block-start: 118.8%;
+    margin-inline-start: -15.3%;
+  }
+
+  .subparagraph-content-block {
+    margin-block-start: 159%;
+  }
+
+  .subtitle-content-block {
+    margin-block-start: 148%;
+    margin-inline-start: 50%;
+  }
+
+  .subparagraph-content-subtext {
+    margin-block-start: 192.78%;
+  }
+}
+
+@media (width <=375px) {
+  .header__rec {
+    margin-inline-start: 108.5%;
+  }
+
+  .header__theme-menu-button {
+    margin-inline-start: 106%;
+    margin-block-start: 19.5%;
+  }
+
+  .header__theme-menu-button_active {
+    margin-block-start: 1%;
+  }
+
+  .header__theme-menu-button_type_active {
+    margin-block-start: 1%;
+  }
+
+  .header__logo {
+    margin-block-start: 17.8%;
+    margin-inline-start: 30.3%;
+    font-size: 116px;
+  }
+
+  .header__paragraph {
+    margin-block-start: 83.2%;
+    width: 94.8%;
+    margin-inline-start: 30%;
+  }
+
+  .decorated-zone::after {
+    margin-block-start: -43.4%;
+    margin-inline-start: 118%;
+  }
+
+  .decorated-zone::before {
+    margin-block-start: 168.8%;
+    margin-inline-start: 30.2%;
+  }
+
+  .content-section__title {
+    margin-block-start: 2.5%;
+    width: 100%;
+    margin-inline-start: 18.5%;
+  }
+
+  .text-block__heading {
+    margin-block-start: 23.4%;
+    margin-inline-start: 18.4%;
+    width: 111%;
+  }
+
+  .text-block__paragraph {
+    margin-block-start: 3%;
+    margin-inline-start: 18.5%;
+    width: 110%;
+  }
+
+  .text-block__heading-next {
+    margin-block-start: 164.7%;
+    margin-inline-start: 18.1%;
+    width: 111.4%;
+  }
+
+  .content-section__title-layoate {
+    margin-block-start: 315.25%;
+    margin-inline-start: 18.5%;
+    width: 100%;
+  }
+
+  .text-block__heading-layoate {
+    margin-block-start: 671.2%;
+    margin-inline-start: 36%;
+    width: 222.1%;
+  }
+
+  .text-block__paragraph-layoate {
+    margin-block-start: 1420%;
+    margin-inline-start: 87%;
+    width: 510%;
+  }
+
+  .text-block__heading-layoate-decor {
+    margin-block-start: 88rem;
+    margin-inline-start: -1.25rem;
+    width: 485%;
+  }
+
+  .title-layoate {
+    margin-block-start: -8.85rem;
+    margin-inline-start: -3.25rem;
+  }
+
+  .text-block__heading-layoate-content {
+    margin-block-start: 108.9rem;
+    margin-inline-start: -7.2rem;
+    width: 256.45%;
+  }
+
+  .title-layoate-decor {
+    margin-block-start: 0.55rem;
+    margin-inline-start: -83.5%;
+    width: 250%;
+  }
+
+  .content-section__title-heading {
+    margin-block-start: 13.1%;
+    margin-inline-start: 24%;
+    width: 95%;
+  }
+
+  .text-block__subheading-content {
+    margin-block-start: 134%;
+    margin-inline-start: -28%;
+    width: 339%;
+  }
+
+  .text-block__heading-content {
+    margin-block-start: 12.96rem;
+    margin-inline-start: -9.3rem;
+    width: 95%;
+  }
+
+  .text-block__paragraph-content {
+    margin-block-start: 15rem;
+    margin-inline-start: 3.6rem;
+    width: 22rem;
+  }
+
+  .subtitle {
+    margin-block-start: 28rem;
+    margin-inline-start: 6.55rem;
+  }
+
+  .subparagraph {
+    margin-block-start: 41.75rem;
+    width: 21rem;
+  }
+
+  .subtitle-layoate {
+    margin-block-start: 44.5rem;
+    margin-inline-start: -0.9rem;
+  }
+
+  .subparagraph-content {
+    margin-block-start: 58.3rem;
+    width: 21.5rem;
+  }
+
+  .subtitle-content {
+    margin-block-start: 69.75rem;
+    margin-inline-start: -8.36rem;
+  }
+
+  .subparagraph-content-block {
+    margin-block-start: 83.5rem;
+    width: 19em;
+  }
+
+  .subtitle-content-block {
+    margin-block-start: 86.25rem;
+    margin-inline-start: 6.55rem;
+  }
+
+  .subparagraph-content-subtext {
+    margin-block-start: 100rem;
+    width: 21.5rem;
+  }
+
+  .grid-heading {
+    margin-block-start: 103.15rem;
+    margin-inline-start: 3.65rem;
+    width: 22.17rem;
+  }
+
+  .grid-image {
+    width: 354.999px;
+    height: 142px;
+    margin-block-start: 105.3rem;
+    margin-inline-start: 6.55rem;
+  }
+
+  .grid-image-books {
+    width: 354.999px;
+    height: 355px;
+    margin-block-start: 153rem;
+    margin-inline-start: -22.2rem;
+  }
+
+  .grid-image-casets {
+    width: 355px;
+    height: 237px;
+    margin-block-start: 137.5rem;
+    margin-inline-start: 6.6rem;
+  }
+
+  .grid-image-ice {
+    width: 354.999px;
+    height: 355px;
+    margin-block-start: 114.76rem;
+    margin-inline-start: 6.6rem;
+  }
+
+  .grid-image-street {
+    width: 354.999px;
+    height: 237px;
+    margin-block-start: 175.85rem;
+    margin-inline-start: 6.6rem;
+  }
+
+  .footer__logo {
+    margin-block-start: 33.85rem;
+    margin-inline-start: 7.3rem;
+    letter-spacing: -2.5px;
+  }
+
+  .decorated-zone-footer::after {
+    margin-block-start: -23.45rem;
+    margin-inline-start: 27.7rem;
+  }
+
+  .decorated-zone-footer::before {
+    margin-block-start: 21.55rem;
+    margin-inline-start: 7.1rem;
+  }
 }
