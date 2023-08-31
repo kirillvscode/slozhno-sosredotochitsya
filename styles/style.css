@@ -321,9 +321,9 @@
 .text-block__paragraph-content {
   color: var(--main-text-color);
   font-family: var(--main-font-family);
-  width: 48%;
-  margin-inline-start: 24.7%;
-  margin-block-start: 11.6%;
+  width: 43%;
+  margin-inline-start: 22.6%;
+  margin-block-start: 10.7%;
 }
 
 .title-layoate {
@@ -338,7 +338,8 @@
 }
 
 .subparagraph {
-  margin-block-start: 31.4%;
+  margin-block-start: 28.7%;
+  width: 43%;
 }
 
 .subtitle-layoate {
@@ -347,15 +348,17 @@
 }
 
 .subparagraph-content {
-  margin-block-start: 44%;
+  margin-block-start: 40.3%;
+  width: 44%;
 }
 
 .subparagraph-content-block {
-  margin-block-start: 60.1%;
+  margin-block-start: 55.1%;
+  width: 44%;
 }
 
 .subparagraph-content-subtext {
-  margin-block-start: 72.85%;
+  margin-block-start: 66.7%;
 }
 
 .subtitle {
@@ -378,8 +381,8 @@
   line-height: var(--main-line-height);
   font-family: var(--main-font-family);
   background-color: var(--accent-color);
-  margin-block-start: 487.4%;
-  margin-inline-start: 2.19%;
+  margin-block-start: 502.4%;
+  margin-inline-start: -1%;
   width: 461.5%;
   height: 1.25%;
 }
@@ -387,8 +390,8 @@
 .grid-image {
   width: 649px;
   height: 260px;
-  margin-block-start: 64.25%;
-  margin-inline-start: 12.85%;
+  margin-block-start: 66.15%;
+  margin-inline-start: 12.4%;
   position: absolute;
   filter: brightness(100%);
 }
@@ -396,8 +399,8 @@
 .grid-image-ice {
   width: 315px;
   height: 595px;
-  margin-block-start: 64.25%;
-  margin-inline-start: 52.52%;
+  margin-block-start: 66.15%;
+  margin-inline-start: 52.09%;
   position: absolute;
   filter: brightness(100%);
 }
@@ -405,24 +408,24 @@
 .grid-image-casets {
   width: 315px;
   height: 768px;
-  margin-block-start: 283.8%;
-  margin-inline-start: 45.08%;
+  margin-block-start: 293.5%;
+  margin-inline-start: 44.08%;
   filter: brightness(100%);
 }
 
 .grid-image-books {
   width: 315px;
   height: 315px;
-  margin-block-start: 283.8%;
-  margin-inline-start: 14.90%;
+  margin-block-start: 293.8%;
+  margin-inline-start: 14.35%;
   filter: brightness(100%);
 }
 
 .grid-image-street {
   width: 649px;
   height: 428px;
-  margin-block-start: 101.06%;
-  margin-inline-start: 32.69%;
+  margin-block-start: 102.955%;
+  margin-inline-start: 32.255%;
   filter: brightness(100%);
   position: absolute;
 }
@@ -458,7 +461,7 @@
   font-size: var(--main-font-size);
   line-height: 0.825;
   text-shadow: 2px 2px 0 var(--nav-color);
-  margin-block-start: 26.5%;
+  margin-block-start: 24.35%;
   margin-inline-start: -1.58%;
   text-align: center;
 }
