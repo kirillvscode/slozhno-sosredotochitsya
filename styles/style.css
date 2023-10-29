@@ -124,7 +124,6 @@
 }
 
 .header__theme-menu-button:hover {
-  --nav-hover-color: rgb(255 0 112 / 0.4);
   border: 1px solid var(--nav-hover-color);
 }
 
@@ -146,7 +145,7 @@
 }
 
 .header__paragraph {
-  color: #000028;
+  color: var(--main-margin-color);
   font-family: var(--main-font-family);
   font-size: var(--main-text-size);
   font-style: normal;
