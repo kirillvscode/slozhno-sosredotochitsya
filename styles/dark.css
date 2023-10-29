@@ -60,4 +60,5 @@
 
 .header__theme-menu-button:hover {
   --nav-hover-color: rgb(50 49 45 / 0.4);
+  --nav-hover-color: rgb(255 0 112 / 0.4);
 }
