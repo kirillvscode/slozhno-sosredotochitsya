@@ -40,14 +40,3 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-
-a:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--text-decoration-line);
-  appearance: none;
-}
-
-a:focus {
-  border: 3px solid var(--text-decoration-line);
-  appearance: none;
-}
