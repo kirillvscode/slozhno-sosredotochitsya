@@ -4,62 +4,57 @@
   переключая тему
 */
 
-/* сохраните этот селектор в приведённом виде.
+.page.theme_light {
+  /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 
-.page.theme_light {
-  --accent-color: #ff8dcb;
-  --main-bg-color: #fff1f7;
-  --main-text-color: #353430;
-  --nav-color: #353430;
-  --header-logo-color: #ffc2e6;
-  --footer-logo-color: #ffc2e6;
-  --main-heading-color: #353430;
-  --section-heading-color: #353430;
-
+  --header-title: #FFC2E6;
+  --text-color: #353430;
+  --bg-color: #FFF1F7;
+  --accent-color: #FF8DCB;
+  --accent-color-secondary: #353430;
+  --dark-color: #353430;
+  --button-outline-hover: rgba(50, 49, 45, 0.40);
   background-image: url(../images/cover-image-light.png);
 }
 
-
-.theme_light .header_rec {
+.theme_light .header__decor {
   display: none;
 }
 
-.theme_light .header__theme-menu-button_active {
-  border: 1px solid var(--nav-color);
+.theme_light .title-decor {
+  color: currentColor;
 }
 
-.theme_light .header__theme-menu-button:hover {
-  --nav-hover-color: rgb(50 49 45 / 0.4);
+.theme_light .section__title {
+  color: currentColor;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #ff8dcb;
-    --main-bg-color: #fff1f7;
-    --main-text-color: #353430;
-    --section-heading-color: #353430;
-    --main-heading-color: #353430;
-    --section-heading-color: #353430;
-    --header-logo-color: #ffc2e6;
-    --footer-logo-color: #ffc2e6;
+    --header-title: #FFC2E6;
+    --text-color: #353430;
+    --bg-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --accent-color-secondary: #353430;
+    --button-outline-hover: rgba(50, 49, 45, 0.40);
   }
 
   .page {
     background-image: url(../images/cover-image-light.png);
   }
 
-  .header_rec {
+  .header__decor {
     display: none;
   }
 
-  .header__theme-menu-button_active {
-    border: 1px solid var(--nav-color);
+  .title-decor {
+    color: currentColor;
   }
 
-  .header__theme-color {
-    --nav-hover-color: rgb(50 49 45 / 0.4);
+  .section__title {
+    color: currentColor;
   }
 }
